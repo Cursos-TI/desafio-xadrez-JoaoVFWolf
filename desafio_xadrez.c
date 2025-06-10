@@ -3,7 +3,6 @@
 int main(){
 
     //Movimento da Torre, 5 casas para a direita utlizando a estrutura for
-
     printf("Movimento da Torre:\n");
     int i;
     for (i = 1; i <= 5; i++) {
@@ -17,6 +16,14 @@ int main(){
         printf("Cima, Direita (%d)\n", j);
         j++;
     }
+
+    // Movimento da Rainha, 8 casas para a esquerda utilizando a estrutura do-while
+    printf("\nMovimento da Rainha:\n");
+    int k = 1;
+    do {
+        printf("Esquerda (%d)\n", k);
+        k++;
+    } while (k <= 8);
 
     return 0;
 }
