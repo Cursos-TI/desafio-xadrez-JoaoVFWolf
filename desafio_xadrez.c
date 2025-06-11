@@ -25,3 +25,10 @@ void moverBispo(int casasRestantes) {
     moverBispo(casasRestantes - 1);
 }
 
+// Função recursiva para o movimento da Rainha (esquerda)
+void moverRainha(int casas) {
+    if (casas == 0) return;
+    printf("Esquerda\n");
+    moverRainha(casas -1);
+}
+
