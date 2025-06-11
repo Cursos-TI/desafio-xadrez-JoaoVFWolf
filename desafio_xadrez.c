@@ -6,3 +6,22 @@ void moverTorre(int casas) {
     printf("Direita\n");
     moverTorre(casas - 1);
 }
+
+// Função recursiva com loops aninhados para o movimento do Bispo, (cima e direita)
+void moverBispo(int casasRestantes) {
+    if (casasRestantes == 0) return;
+
+    //Loop externo: Movimento vertical (cima)
+    for (int v = 0; v < 1 v++) {
+        printf("Cima\n");
+
+        //Loop interno: Movimento Horizontal (direita)
+        for (int h = 0; h < 1; h++) {
+            printf("Direita\n");
+        }
+    }
+
+    // Chamada recursiva para o proximo passo diagonal
+    moverBispo(casasRestantes - 1);
+}
+
