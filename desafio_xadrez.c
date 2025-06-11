@@ -12,7 +12,7 @@ void moverBispo(int casasRestantes) {
     if (casasRestantes == 0) return;
 
     //Loop externo: Movimento vertical (cima)
-    for (int v = 0; v < 1 v++) {
+    for (int v = 0; v < 1; v++) {
         printf("Cima\n");
 
         //Loop interno: Movimento Horizontal (direita)
