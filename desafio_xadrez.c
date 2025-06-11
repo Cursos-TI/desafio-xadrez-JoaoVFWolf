@@ -62,7 +62,7 @@ int main() {
     //Movimento do Cavalo (Dois para cima e um para Direita)
     printf("Movimento do Cavalo:\n");
     for(int i = 0; i < 2; i++) {
-    print("Cima\n");
+    printf("Cima\n");
 
     //Após subir duas vezes, move para a direita
     if (i == 1) {
