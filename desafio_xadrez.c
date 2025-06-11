@@ -32,3 +32,31 @@ void moverRainha(int casas) {
     moverRainha(casas -1);
 }
 
+int main() {
+    // Variaveis de controle, quantas casas cada peça deve andar
+    int casasTorre = 5;
+    int casasBispo = 5;
+    int casasRainha = 8;
+
+    //Movimento Torre
+    printf("Movimento da Torre:\n");
+    moverTorre(casasTorre);
+
+    //Espaço entre peças
+    printf("\n");
+
+    //Movimento do Bispo
+    printf("Movimento do Bispo:\n");
+    moverBispo(casasBispo);
+
+    //Espaço entre peças
+    printf("\n");
+
+    // Movimento da Rainha 
+    printf("Movimento da Rainha:\n");
+    moverRainha(casasRainha);
+
+    // Espaço entre peças
+    printf("\n");
+ 
+}
